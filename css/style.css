@@ -1,4 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: local('Gilroy-Bold'),
+         url('/fonts/Gilroy-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: local('Gilroy-Medium'),
+         url('/fonts/Gilroy-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: local('Gilroy-Regular'),
+         url('/fonts/Gilroy-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: local('Gilroy-Semibold'),
+         url('/fonts/Gilroy-Semibold.woff2') format('woff2');
+}
 
 * {
     padding: 0;
@@ -21,7 +44,6 @@ body{
     background: #FFF;
     color: #000;
     box-sizing: border-box;
-    font-family: 'Open Sans';
     font-style: normal;
     line-height: normal;
 	font-weight: 600;
@@ -32,7 +54,9 @@ img {
     display: block;
 }
 
-a { color: inherit; } 
+a {
+    font-family: 'Gilroy-Semibold';
+} 
 
 
 .header {
@@ -52,6 +76,7 @@ a { color: inherit; }
 .header__link {
     margin-left: 20px;
     color: #000;
+    
 }
 
 .main__content{
@@ -67,6 +92,7 @@ a { color: inherit; }
 
 .top__content__info__h1{
     margin-bottom: 17px;
+    font-family: 'Gilroy-Bold';
     font-size: 60px;
     font-weight: 400;
 }
@@ -76,6 +102,7 @@ a { color: inherit; }
     color: #888;
     font-size: 20px;
     font-weight: 400;
+    font-family: 'Gilroy-Medium';
 }
 
 
@@ -107,6 +134,7 @@ footer {
     font-weight: 400;
     border: none;
 	cursor: pointer;
+    font-family: 'Gilroy-Bold';
 }
 
 .vidio__button{
@@ -115,4 +143,5 @@ footer {
     color: #AAA;
     font-size: 15px;
     font-weight: 400;
+    font-family: 'Gilroy-Bold';
 }
