@@ -1,11 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
-.top__header {
+body{
+    background: #FFF;
+    box-sizing: border-box;
+    scrolld
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
     margin-top: 40px;
     margin-bottom: 84px;
+    display: flex;
+    justify-content: space-between;
    
 }
 
@@ -19,7 +35,16 @@
     margin-bottom: 37px;
 }
 
-.top__logo {
+.start__button {
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20)
+}
+
+footer {
     margin-top: 97px;
     margin-bottom: 96px;
 }
